@@ -1,0 +1,5 @@
+id: mount-network
+name: Network Mounter
+version: "1.0.0"
+description: Mounts a CIFS network share on startup
+type: app

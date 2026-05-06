@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  mounter:
+    image: alpine:latest
+    container_name: mount-network
+    restart: always
+    privileged: true
+    volumes:
+      - /home/umbrel/umbrel/network:/mnt/network
+      - ./start.sh:/start.sh
+      - /lib/modules:/lib/modules:ro
+    entrypoint: ["/bin/sh", "/start.sh"]
