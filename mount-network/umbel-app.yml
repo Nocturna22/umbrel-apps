@@ -1,5 +1,5 @@
+manifestVersion: 1
 id: mount-network
-name: Network Mounter
+name: Network Mount
 version: "1.0.0"
-description: Mounts a CIFS network share on startup
-type: app
+description: Mount CIFS share
