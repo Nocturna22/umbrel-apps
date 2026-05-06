@@ -1,6 +1,17 @@
 version: "3.7"
 
 services:
+  mount-network:
+    image: alpine:3.20
+    container_name: mount-network
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+      - /mnt/network:/mnt/network
+    entrypoint: ["/bin/sh", "/start.sh"]version: "3.7"
+
+services:
   mounter:
     image: alpine:latest
     container_name: mount-network
