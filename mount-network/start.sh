@@ -3,7 +3,6 @@
 echo "Installing CIFS tools..."
 apk add --no-cache cifs-utils
 
-# Variablen (anpassen!)
 USERNAME="Username"
 PASSWORD="Password"
 SERVER="192.168.111.1"
@@ -22,7 +21,11 @@ mount -t cifs \
   "//$SERVER/$SHARE/" \
   "$MOUNT_PATH"
 
-echo "Mount complete."
+if [ $? -eq 0 ]; then
+  echo "Mount successful"
+else
+  echo "Mount failed"
+fi
 
-# Container am Leben halten
+# Container alive halten
 tail -f /dev/null
