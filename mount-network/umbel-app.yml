@@ -2,7 +2,9 @@ manifestVersion: 1
 id: mount-network
 category: networking
 name: Network Mount
+tagline: Mounts SMB/CIFS share on startup
 version: "1.0.0"
-releaseNotes: "Mounts SMB/CIFS share on startup"
+releaseNotes: Mounts SMB/CIFS share on startup
 description: Mounts a CIFS network share automatically on boot
 developer: custom
+submitter: custom
