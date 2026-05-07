@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "Installing CIFS tools..."
-apk add --no-cache cifs-utils
+#echo "Installing CIFS tools..."
+#apk add --no-cache cifs-utils
 
 USERNAME="Username"
 PASSWORD="Password"
