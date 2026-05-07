@@ -15,9 +15,9 @@ description: >-
 developer: Umbrel
 website: https://umbrel.com
 submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+submission: https://github.com/Nocturna22/umbrel-apps/tree/main/sparkles-hello-world
+repo: https://github.com/Nocturna22/umbrel-apps/tree/main/sparkles-hello-world
+support: https://github.com/Nocturna22/umbrel-apps/tree/main/sparkles-hello-world/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
