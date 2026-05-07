@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: nocturna-mount-network
-category: networking
+category: Networking
 name: Network Mount
 icon: https://images.icon-icons.com/1626/PNG/512/3775724-brain-rocket-startup-transport_108993.png
 version: "0.0.1"
