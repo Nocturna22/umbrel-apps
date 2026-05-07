@@ -2,7 +2,7 @@ version: "3.7"
 services:
   mount-network:
     image: alpine:3.20
-    container_name: mount-network
+    container_name: nocturna-mount-network
     restart: unless-stopped
     environment:
       - MOUNT_SERVER=${MOUNT_SERVER:-192.168.111.1}
