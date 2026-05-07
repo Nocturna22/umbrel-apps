@@ -1,4 +1,2 @@
-id: nocturna-store
-name: Nocturna Apps
-description: Custom Umbrel Apps
-version: 1.0.0
+id: "nocturna-store"
+name: "Nocturna Apps"
