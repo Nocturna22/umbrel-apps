@@ -1,5 +1,6 @@
 manifestVersion: 1
 id: mount-network
+category: networking
 name: Network Mount
 version: "1.0.0"
 releaseNotes: "Mounts SMB/CIFS share on startup"
