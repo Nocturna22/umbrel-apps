@@ -1,11 +1,14 @@
 version: "3.7"
 
 services:
-  mount-network:
+  app_proxy:
+    environment:
+      APP_HOST: nocturna-umbrel-mount-network_app_1
+      APP_PORT: "8189"
+      
+  app:
     image: alpine:3.20
-    container_name: mount-network
     restart: unless-stopped
-    privileged: true
     volumes:
       - ${APP_DATA_DIR}/data:/data
       - /home/umbrel/umbrel/network:/mnt/network
