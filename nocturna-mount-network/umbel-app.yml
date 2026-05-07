@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: mount-network
+category: networking
+name: Network Mount
+icon: https://images.icon-icons.com/1626/PNG/512/3775724-brain-rocket-startup-transport_108993.png
+version: "0.0.1"
+tagline: Mounts SMB/CIFS
+description: >-
+  NMounts a CIFS network share automatically on boot
+
+developer: Nocturna
+website: https://github.com/Nocturna22//
+dependencies: []
+repo: https://github.com/smolgrrr/Wired
+support: https://github.com/smolgrrr/Wired/issues
+port: 8189
+gallery:
+  - https://i.imgur.com/4tHfrR4.png
+  - https://i.imgur.com/niMQlU1.png
+  - https://i.imgur.com/Ve4S0zi.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
